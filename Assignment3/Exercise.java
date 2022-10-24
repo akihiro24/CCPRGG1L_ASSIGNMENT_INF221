@@ -46,27 +46,29 @@ public class Exercise {
         System.out.println("");
         System.out.println("3. PATTERN 3");
 
-        // outer loop
-        for (int row = 0; row < mdArray.length; row++) {
-            System.out.println("");
+            // outer loop
+            for (int row = 0; row < mdArray.length; row++) {
+                System.out.println("");
 
-            // inner loop
-            for (int column = 0; column < 3; column++) {
 
-                if (row == 0 || row == 3){
-                    System.out.print(mdArray[row][column]);
-                }
-                    if (row == 1 || row == 2){
-                        if (column == 0 || column == 2){
-                            System.out.print(" ");
-                        } else {
-                            System.out.print(mdArray[row][column]);
-                        }
+
+                // inner loop
+                for (int column = 0; column < 3; column++) {
+                    if (row == 0 || row == 3){
+                        System.out.print(mdArray[row][column]);
                     }
-                
-            }
+                        if (row == 1 || row == 2){
 
-        }
+                            if (column == 0 || column == 2){
+                                System.out.print(" ");
+                            } else {
+                                System.out.print(mdArray[row][column]);
+                            }
+                        }
+
+                }
+
+            }
 
         // // PATTERN 4
         System.out.println("");
