@@ -118,7 +118,7 @@ public class Exercise {
 
         }
 
-        System.out.println("The sum is: " + totalSum);
+        System.out.println("The sum of the rows and columns is: " + totalSum);
         
     }
 
